@@ -6,3 +6,4 @@
 *.data-00000-of-00001 filter=lfs diff=lfs merge=lfs -text
 C:/Users/osman/Google[[:space:]]Drive/Project_tasks/Mobilenet/models/research/object_detection/Training/events.out.tfevents.1589838658.99f709553076 filter=lfs diff=lfs merge=lfs -text 
 C:/Users/osman/Google[[:space:]]Drive/Project_tasks/Yolo_3/TrainYourOwnYOLO/.git/objects/pack/* filter=lfs diff=lfs merge=lfs -text
+C:/Users/osman/Desktop/Project_2/Project_tasks/Mobilenet/models_Tf/research/object_detection/Training/events.out.tfevents.1589838658.99f709553076
