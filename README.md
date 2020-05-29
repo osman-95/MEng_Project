@@ -17,12 +17,12 @@ Before Elaboring the above sections a quick overview on the file hierarchy is sh
  
 ├── Understanding_concept
 │   ├──  Object Detection
-|   |    ├── Mobilenetv2
-|   |    ├── YoloV3 ()
-|   |    └── YoloV3 ()
+|   |    ├── [Mobilenetv2 (Tensorflow API)](https://github.com/tensorflow/models/tree/master/research/object_detection)
+|   |    ├── [YoloV3 (experiencor)](https://github.com/experiencor/keras-yolo3)
+|   |    └── [YoloV3 (AntonMu)](https://github.com/AntonMu/TrainYourOwnYOLO)
 │   └──  Classification
-|        ├──classification_model_1 ()
-|        └── classification_model_2 ()       
+|        ├──classification_model_1 (Mobilenet)
+|        └── classification_model_2 (CNN from scratches)       
 └── Implemnetation_Final_Model
      └── Currently under progress
 
