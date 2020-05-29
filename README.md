@@ -13,20 +13,20 @@ The work was borken into the following structure
 
 Before Elaboring the above sections a quick overview on the file hierarchy is shown below
          
- ```
+```   
  
 ├── Understanding_concept
 │   ├──  Object Detection
-|   |    ├── [Mobilenetv2 (Tensorflow API)](https://github.com/tensorflow/models/tree/master/research/object_detection)
-|   |    ├── [YoloV3 (experiencor)](https://github.com/experiencor/keras-yolo3)
-|   |    └── [YoloV3 (AntonMu)](https://github.com/AntonMu/TrainYourOwnYOLO)
+|   |    ├── Mobilenetv2 (Tensorflow API)
+|   |    ├── YoloV3 (experiencor)
+|   |    └── YoloV3 (AntonMu)
 │   └──  Classification
 |        ├──classification_model_1 (Mobilenet)
 |        └── classification_model_2 (CNN from scratches)       
 └── Implemnetation_Final_Model
      └── Currently under progress
 
-```        
+ ```       
 
 
 **NOTE:** Classification model were mainly implemented for undersanding purpose the concept of classification only. the results might be used for comparison later when the final model is built for evaluation and jsutifucaiton.
