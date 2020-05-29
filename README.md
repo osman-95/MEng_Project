@@ -72,27 +72,27 @@ Detailed explaination of the model is presented in their corresponding ReadMe fi
 
 The output of testing of each model with the sample data set is shown below:
 
-- Object Detection
-  - Mobilenet v2
-  - Yolo v3 (Model_1)
+### - Object Detection
+  - **Mobilenet v2**
+  - **Yolo v3 (Model_1)**
   
     ![image 1](https://raw.githubusercontent.com/osman-95/Project_Prog/master/Project_tasks/pract_yolo_3/output/p1010843.jpg)
     ![image 2](https://raw.githubusercontent.com/osman-95/Project_Prog/master/Project_tasks/pract_yolo_3/output/rimg0408.jpg)
     ![image 3](https://raw.githubusercontent.com/osman-95/Project_Prog/master/Project_tasks/pract_yolo_3/output/p1000395.jpg)
 
     
-  - Yolo v3 (Model_2)
+  - **Yolo v3 (Model_2)**
   
     ![](https://raw.githubusercontent.com/osman-95/Project_Prog/master/Project_tasks/Yolo_3/TrainYourOwnYOLO_AM/Data/Source_Images/Test_Image_Detection_Results/VA-02-04-7657-02_l_catface.jpg)
     ![](https://raw.githubusercontent.com/osman-95/Project_Prog/master/Project_tasks/Yolo_3/TrainYourOwnYOLO_AM/Data/Source_Images/Test_Image_Detection_Results/N364080_catface.jpg)
     ![](https://raw.githubusercontent.com/osman-95/Project_Prog/master/Project_tasks/Yolo_3/TrainYourOwnYOLO_AM/Data/Source_Images/Test_Image_Detection_Results/N364071_catface.jpg)
     
-- Classification
-  - Classification_1 (Mobilenet v2)
+### - Classification
+  - **Classification_1 (Mobilenet v2)**
   
     ![](https://raw.githubusercontent.com/osman-95/Project_Prog/master/ReadMe_img/Capture3.PNG)
     
-  - Classification_2 (CNN from scratches)
+  - **Classification_2 (CNN from scratches)**
   
     ![](https://raw.githubusercontent.com/osman-95/Project_Prog/master/ReadMe_img/Capture4.PNG)
 
