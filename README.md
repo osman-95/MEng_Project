@@ -74,6 +74,10 @@ The output of testing of each model with the sample data set is shown below:
 
 ### - Object Detection
   - **Mobilenet v2**
+  
+  
+    ![](https://github.com/osman-95/Project_Progress_2/blob/master/Project_tasks/Mobilenet/Output/M_img.png)
+    ![](https://github.com/osman-95/Project_Progress_2/blob/master/Project_tasks/Mobilenet/Output/M_img2.png)
   - **Yolo v3 (Model_1)**
   
     ![image 1](https://raw.githubusercontent.com/osman-95/Project_Prog/master/Project_tasks/pract_yolo_3/output/p1010843.jpg)
