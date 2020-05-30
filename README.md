@@ -65,6 +65,10 @@ The sample data used for classification consisted of 6 indoor categories listed 
 - auditorium
 - artstudio
 
+The data was labelled manually using [VoTT](https://github.com/microsoft/VoTT) software to label all the annotation of the images.
+
+![](https://github.com/osman-95/Project_Progress_2/blob/master/ReadMe_img/Capture21211.PNG)
+
 ## Understanding and Testing of the Algorithm(pretrained models)
 
 The selected pretrained models for classification and object detection were tested with respective the sample dataset.
