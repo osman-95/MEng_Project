@@ -62,10 +62,10 @@ The data was trained for few hours until the loss value became very low and the 
 
 sample outputs
 
- ![](https://raw.githubusercontent.com/osman-95/Project_Prog/master/Project_tasks/Yolo_3/TrainYourOwnYOLO_AM/Data/Source_Images/Test_Image_Detection_Results/VA-02-04-7657-02_l_catface.jpg)
-    ![](https://raw.githubusercontent.com/osman-95/Project_Prog/master/Project_tasks/Yolo_3/TrainYourOwnYOLO_AM/Data/Source_Images/Test_Image_Detection_Results/N364080_catface.jpg)
-    ![](https://raw.githubusercontent.com/osman-95/Project_Prog/master/Project_tasks/Yolo_3/TrainYourOwnYOLO_AM/Data/Source_Images/Test_Image_Detection_Results/N364071_catface.jpg)
-
+ ![](https://github.com/osman-95/Project_Progress_2/blob/master/Project_tasks/Mobilenet/Output/M_img2.png)
+ 
+  ![](https://github.com/osman-95/Project_Progress_2/blob/master/Project_tasks/Mobilenet/Output/M_img.png)
+  
 
 
 
