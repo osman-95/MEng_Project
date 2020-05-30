@@ -1,9 +1,9 @@
 # Object based Environment Classification
 **NOTE-** The documentation is not completely updated.
 
-The main aim of the project is to design a real time environment recognition using object detection. the classitfication of the environment class is determined by the objects detected in the image/Frame.
+The main aim of the project is to design a real time environment recognition using object detection. the classification of the environment class is determined by the objects detected in the image/Frame.
 
-The work was borken into the following structure
+The work was broken into the following structure
 
 1. **Research**
 2. **Data selection and preprocessing**
@@ -11,7 +11,7 @@ The work was borken into the following structure
 4. **implementation of Desired Data with the desired Algorithm**
 5. **Testing and evaluation of the Project output**
 
-Before Elaboring the above sections a quick overview on the file hierarchy is shown below
+Before Elaborating the above sections, a quick overview on the file hierarchy is shown below
          
 ```   
  
@@ -29,16 +29,16 @@ Before Elaboring the above sections a quick overview on the file hierarchy is sh
  ```       
 
 
-**NOTE:** Classification model were mainly implemented for undersanding purpose the concept of classification only. the results might be used for comparison later when the final model is built for evaluation and jsutifucaiton.
+**NOTE:** Classification model were mainly implemented for understanding purpose the concept of classification only. the results might be used for comparison later when the final model is built for evaluation and  justification.
 
 ## Research
-After the research done so far the two pretrained Models were chosen to perform object detection in realtime
+After the research done so far the two pretrained Models were chosen to perform object detection in real-time
 - Yolo V3
 - Mobilenet V3
 
-From the above catergories of algorithm two yolo v3 models from github were selected to be tested on the sample data as shown in the folder hierarchy. One Mobilenet v2 model was used from tensorflow API model lists.
+From the above categories of algorithm two yolo v3 models from Github were selected to be tested on the sample data as shown in the folder hierarchy. One Mobilenet v2 model was used from Tensorflow API model lists.
 
-Currently going through this [paper](http://vision.stanford.edu/pdf/Fei-Fei_Li_ICVSS09_bookchapter.pdf) to detemine an algorithm to predict or classify a frame from the object list of the detected object.
+Currently going through this [paper](http://vision.stanford.edu/pdf/Fei-Fei_Li_ICVSS09_bookchapter.pdf) to determine an algorithm to predict or classify a frame from the object list of the detected object.
 
 
 ## Data selection and preprocessing
@@ -72,7 +72,7 @@ The data was labelled manually using [VoTT](https://github.com/microsoft/VoTT) s
 ## Understanding and Testing of the Algorithm(pretrained models)
 
 The selected pretrained models for classification and object detection were tested with respective the sample dataset.
-Detailed explaination of the model is presented in their corresponding ReadMe file
+Detailed explanation of the model is presented in their corresponding ReadMe file
 
 The output of testing of each model with the sample data set is shown below:
 
