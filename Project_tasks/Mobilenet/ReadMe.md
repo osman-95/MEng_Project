@@ -4,19 +4,19 @@
 ```
 .
 ├── Content
-|   ├── model_tf
-|       ├── community
-|       ├── official
-|       ├── research
-|           ├── ...
-|           ├── object_detection
-|               ├── Training
-|               ├── models
-|               ├── protos
-|               ├── data_tools
-|               └── ...
+├── model_tf
+|   ├── community
+|   ├── official
+|   ├── research
+|       ├── ...
+|       ├── object_detection
+|           ├── Training
+|           ├── models
+|           ├── protos
+|           ├── data_tools
 |           └── ...
 |       └── ...
+|   └── ...
 └── Output
     ├── images
     └── video
@@ -24,7 +24,7 @@
 
 ```
 
-The **Content file** contains tensorflow API will all necessary folder, packages and codes required for the implementation of various models such as mobilenet v1 and v2, fast rcnn  model, inception v2 and v3,etc. A breif overview on the necessary files it contains is shown below:
+The **Mobilenet file** contains tensorflow API will all necessary folder, packages and codes required for the implementation of various models such as mobilenet v1 and v2, fast rcnn  model, inception v2 and v3,etc. A breif overview on the necessary files it contains is shown below:
 - It contains the image folder required for training and evaluation 
 - Weights required to initiate the training 
 - Scripts and instructions on annotating images
