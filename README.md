@@ -40,7 +40,7 @@ The dataset was created by MIT, and was obtained from [Kaggle](https://www.kaggl
 
 Only 6 classes were chosen to be worked on, with each containing 100 images. The decision to choose only 6 classes was made due to time constraints and hardware limitations. The 6 classes chosen were bedroom, bathroom, dining room, kitchen, bowling center, and office.
 
- ![Selected categories](https://raw.githubusercontent.com/osman-95/Project_Prog/master/ReadMe_img/Capture2.PNG)
+ ![Selected categories](https://github.com/osman-95/Project_Progress_2/blob/master/ReadMe_img/Capture12121.PNG)
 
 I labelled the dataset manually using [VoTT software](https://github.com/microsoft/VoTT), with each class having at least 4 different types of annotations/labels. 
 
