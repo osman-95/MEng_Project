@@ -3,7 +3,6 @@
 ## Folder structure
 ```
 .
-├── Content
 ├── model_tf
 |   ├── community
 |   ├── official
