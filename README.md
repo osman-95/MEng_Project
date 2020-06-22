@@ -89,7 +89,7 @@ Following is a short breakdown of the tasks I have completed thus far.
 ## Upcoming Tasks to be completed
 I am currently working on the following,
 - Labeling my final dataset.
--Writing a code to generate a dataset by extracting the annotations information from the annotation .csv file to train it to a classification model. 
+- Writing a code to generate a dataset by extracting the annotations information from the annotation .csv file to train it to a classification model. 
 - After building an object detection model, writing a code to extract the annotations/labels from the output of the object detector. This extracted information (labels/annotations) will be fed to the classification model for determining the class of the image.
 
 
