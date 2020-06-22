@@ -13,6 +13,26 @@ To classify an image based on the objects detected in a frame/image, the annotat
 
 While testing the model, the annotations or labels detected by the object detection model are fed to the classification model to determine the class of the image.
 
+Before Elaborating the above sections, a quick overview on the file hierarchy of the main files are shown below
+         
+```   
+ 
+├── Project_tasks
+│   ├── Mobilenet (Mobilenetv2 using Tensorflow API)
+|   ├── Yolo_3 (Yolo 3 by AntonMu on Github)
+|   ├── pract_yolo_3 (yolo 3 mmodel by experiencor Github)
+│   ├──classification (using pretrained Mobilenet classification model)
+|   └──scratch_class (CNN from scratches) 
+|        
+└── Final_Model (Note: It will be added soon containing the final model and dataset for the project)
+     └── Currently under progress
+
+ ```       
+**NOTE:**
+- **The Project task displays all the the object detection models and Image classification models learnt and  tested during the previous period to understand the working procedure and the time consumption in training process of each model.** 
+- **The Image classification models were just implemented for the sake of learning and will not be used in the final model implementation.**
+- **The file named as "Final_Model" will be updated soon with the final model progress**
+
 ## Description of the dataset
 The dataset was created by MIT, and was obtained from [Kaggle](https://www.kaggle.com/itsahmad/indoor-scenes-cvpr-2019?). It consists of 67 categories/classes and a total of 15,620 images of a variety of indoor scenes such as classrooms, restaurants, bars, bakeries, bathrooms, libraries, bedrooms, airports, etc. The number of images in each category varies, but there are at least 100 images per category and all the images are in .jpg format. 
 
@@ -40,7 +60,7 @@ Following is a short breakdown of the tasks I have completed thus far.
 
          -> kitchen sink
 
-- Three pre-trained model were examined, namely [Mobilenet v2 (TensorFlow API)](), [Yolo v3 (experiencor)]() and [Yolo v3 (AntonMu)]().
+- Three pre-trained model were examined, namely [Mobilenet v2 (TensorFlow API)](), [Yolo v3 (experiencor)]() and [Yolo v3 (AntonMu)]() and sample of the output of each model is shown below.
 
   - **Mobilenet v2**
   
