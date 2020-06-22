@@ -3,11 +3,11 @@
 ## Folder structure
 ```
 .
-├── Content
-|   ├── Annotations
-|   ├── train_images
-|   ├── logs
-|   └── ...
+
+├── Annotations
+├── train_images
+├── logs
+└── ...
 ├── Output
 |   ├── images
 |   └── video
@@ -17,7 +17,7 @@
 
 ```
 
-The **Content file** contains all the necessary folder, packages and codes required for the implementation of the model
+The **pract_yolo_3 file** contains all the necessary folder, packages and codes required for the implementation of the model
 - It contains the image folder required for training and evaluation 
 - Weights required to initiate the training 
 - The configuration file of the model which is used to tune various parameters in the model like
