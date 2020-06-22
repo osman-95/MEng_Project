@@ -3,22 +3,22 @@
 ## Folder structure
 ```
 .
-├── Content
-|   ├── Test_image
-|   ├── image_class
-|   ├── CNN.model
-|   ├── buildnetwork.ipynb
-|   ├── model.h
-|   ├── model.json
-|   ├── X.pickle
-|   └── y.pickle
+
+├── Test_image
+├── image_class
+├── CNN.model
+├── buildnetwork.ipynb
+├── model.h
+├── X.pickle
+├── model.json
+└── y.pickle
 └── Output
     └── output_image
 
 
 ```
 
-The **Content file** contains all the necessary folder, packages and codes required for the implementation of the model
+The **scartch_class file** contains all the necessary folder, packages and codes required for the implementation of the model
 - Image_class contains the image folder consisting all classes required for training  
 - Test_image consist of the images used for testing 
 - model.h is the model generated from training the CNN network
