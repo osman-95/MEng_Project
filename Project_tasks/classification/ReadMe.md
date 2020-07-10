@@ -3,19 +3,19 @@
 ## Folder structure
 ```
 .
-├── Content
-|   ├── image_class
-|   ├── saved_model
-|   ├── tflite_models
-|   ├── classify_pract.ipynb
-|   └── ...
+
+├── image_class
+├── saved_model
+├── tflite_models
+├── classify_pract.ipynb
+└── ...
 └── Output
     └── images
 
 
 ```
 
-The **Content file** contains all the necessary folder, packages and codes required for the implementation of the model
+The **classification file** contains all the necessary folder, packages and codes required for the implementation of the model
 - It contains the image folder required for training and evaluation 
 - tflite file containing the code and tflite model generated from the saved model
 - The folder that saves checkpoints of the training

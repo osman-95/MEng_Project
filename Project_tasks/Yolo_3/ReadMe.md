@@ -3,12 +3,11 @@
 ## Folder structure
 ```
 .
-├── TrainYourOwnYOLO_AM
-|   ├── 1_Annotation
-|   ├── 2_Training
-|   ├── 3_inference
-|   ├── Data
-|   └── ...
+├── 1_Annotation
+├── 2_Training
+├── 3_inference
+├── Data
+└── ...
 ├── Output
 |   ├── images
 |   └── video
@@ -16,7 +15,7 @@
 
 ```
 
-The **Content file** contains all the necessary folder, packages and codes required for the implementation of the model
+The **Yolo_3 file** contains all the necessary folder, packages and codes required for the implementation of the model
 - It contains the image folder required for training and evaluation 
 - Weights required to initiate the training 
 - Scripts and instructions on annotating images
