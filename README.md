@@ -24,8 +24,9 @@ Before Elaborating the above sections, a quick overview on the file hierarchy of
 │   ├──classification (using pretrained Mobilenet classification model)
 |   └──scratch_class (CNN from scratches) 
 |        
-└── Final_Model (Note: It will be added soon containing the final model and dataset for the project)
-     └── Currently under progress
+└── Final_Model (Note: In progress last updated on 10th of july)
+     └── Code
+     └── Dataset
 
  ```       
 **NOTE:**
