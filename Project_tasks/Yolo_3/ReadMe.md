@@ -3,7 +3,7 @@
 ## Folder structure
 ```
 .
-├── Content
+├── TrainYourOwnYOLO_AM
 |   ├── 1_Annotation
 |   ├── 2_Training
 |   ├── 3_inference
