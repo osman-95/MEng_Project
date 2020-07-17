@@ -54,3 +54,6 @@ I labelled the dataset manually using [VoTT software](https://github.com/microso
 
  ![](https://github.com/osman-95/Project_Progress_2/blob/master/ReadMe_img/Capture21211.PNG)
 
+
+
+**Further parts will be updated soon**
