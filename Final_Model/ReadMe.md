@@ -24,7 +24,7 @@ To classify an image based on the objects detected in a frame/image, the annotat
 
 While testing the model, the annotations or labels detected by the object detection model are fed to the classification model to determine the class of the image.
 
-![]()
+![](https://github.com/osman-95/Project_Progress_2/blob/master/ReadMe_img/Model%20(3).jpg)
 
 Before Elaborating the above sections, a quick overview on the file hierarchy of the main files are shown below
          
