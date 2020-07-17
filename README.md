@@ -1,5 +1,5 @@
 # Object detection-based Scene Classification
-**NOTE-** The documentation is not completely updated.
+**NOTE- The current progress in the code implemented is illustrated in the [**Final_Model**](https://github.com/osman-95/Project_Progress_2/tree/master/Final_Model) file**
 
 The main aim of the project is to design a real-time scene classification model to classify an image based on the objects detected in the image. The model is trained on all the possible combinations of objects that can appear in a frame/image to constitute a specific class (for example, if the objects detected in a frame/image are an oven, refrigerator, microwave and a sink, the model can determine the class of the image as kitchen).
 The project can be divided into two parts,
@@ -24,8 +24,9 @@ Before Elaborating the above sections, a quick overview on the file hierarchy of
 │   ├──classification (using pretrained Mobilenet classification model)
 |   └──scratch_class (CNN from scratches) 
 |        
-└── Final_Model (Note: It will be added soon containing the final model and dataset for the project)
-     └── Currently under progress
+└── Final_Model (Note: In progress last updated on 10th of july)
+     └── Code
+     └── Dataset
 
  ```       
 **NOTE:**
