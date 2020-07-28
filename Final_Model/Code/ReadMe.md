@@ -13,3 +13,5 @@
 
 
 4. [**Object_detection_testing**](https://github.com/osman-95/Project_Progress_2/blob/master/Final_Model/Code/Object_Detection_testing.ipynb) contains the code implemented to test our object detection model on test images and webcam.
+
+5. [**Object_Detection_based_classification.ipynb**]() contains the code implemented to test the complete objective of the project by taking and image or a video and an input and detect the object in the frame and the object detected are fed into the classification model to predict the class of the whole image or video. The model was tested on images as well as a webcam  
