@@ -1,9 +1,4 @@
-# Object detection-based Scene Classification
-**NOTE- The current progress in the code implemented is illustrated in the [**Final_Model**](https://github.com/osman-95/Project_Progress_2/tree/master/Final_Model) file**
-
-**NOTE- The Final_Model folder contains all the codes, datasets and models implemented for the main objective of the project**
-
-**NOTE- The Project_tasks folder contains all the concepts, codes and models learned and tested in the initial learning stage of the project**
+## Object detection-based Scene Classification
 
 The main aim of the project is to design a real-time scene classification model to classify an image based on the objects detected in the image. The model is trained on all the possible combinations of objects that can appear in a frame/image to constitute a specific class (for example, if the objects detected in a frame/image are an oven, refrigerator, microwave and a sink, the model can determine the class of the image as kitchen).
 The project can be divided into two parts,
@@ -51,7 +46,7 @@ I labelled the dataset manually using [VoTT software](https://github.com/microso
 
  ![](https://github.com/osman-95/Project_Progress_2/blob/master/ReadMe_img/Capture21211.PNG)
 
-## Task Completed
+## Concept learned and model practiced and tested
 Following is a short breakdown of the tasks I have completed thus far.
 - I conducted background research to familiarize myself with the concept of object detection and with classification models. This was followed by some reading aimed at understanding the procedure of executing and training of a dataset on a pre-trained model.
 
@@ -110,12 +105,4 @@ Following is a short breakdown of the tasks I have completed thus far.
   - **Classification_2 (CNN from scratches)**
   
     ![](https://raw.githubusercontent.com/osman-95/Project_Prog/master/ReadMe_img/Capture4.PNG)
-
-## Upcoming Tasks to be completed
-I am currently working on the following,
-- Labeling my final dataset.
-- Writing a code to generate a dataset by extracting the annotations information from the annotation .csv file to train it to a classification model. 
-- After building an object detection model, writing a code to extract the annotations/labels from the output of the object detector. This extracted information (labels/annotations) will be fed to the classification model for determining the class of the image.
-
-
 
