@@ -4,7 +4,7 @@
 
 **Notice: all files are under progress and subjected to change**
 
-- The Code file contains the code progress implemented upto 16th of July and is subjected to change
+- The Code file contains the code progress implemented upto 27th of July and is subjected to change
 
 - The Dataset file contains the dataset generated before 16th of July and the is subjected to change
 
@@ -36,10 +36,6 @@ Before Elaborating the above sections, a quick overview on the file hierarchy of
      └── Trained_models
 
  ```       
-**NOTE:**
-- **The Project task displays all the the object detection models and Image classification models learnt and  tested during the previous period to understand the working procedure and the time consumption in training process of each model.** 
-- **The Image classification models were just implemented for the sake of learning and will not be used in the final model implementation.**
-- **The file named as "Final_Model" will be updated soon with the final model progress**
 
 ## Description of the dataset
 The dataset was created by MIT, and was obtained from [Kaggle](https://www.kaggle.com/itsahmad/indoor-scenes-cvpr-2019?). It consists of 67 categories/classes and a total of 15,620 images of a variety of indoor scenes such as classrooms, restaurants, bars, bakeries, bathrooms, libraries, bedrooms, airports, etc. The number of images in each category varies, but there are at least 100 images per category and all the images are in .jpg format. 
