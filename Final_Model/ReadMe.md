@@ -153,6 +153,19 @@ Since all models showed a very good performance with accuracy values above 90%, 
 
 ### Sample output of the complete model
 
+![](https://github.com/osman-95/Project_Progress_2/blob/master/Final_Model/Output_images/books_read%2013.png)
+![](https://github.com/osman-95/Project_Progress_2/blob/master/Final_Model/Output_images/books_read%2014.png)
+![](https://github.com/osman-95/Project_Progress_2/blob/master/Final_Model/Output_images/books_read%2016.png)
+![](https://github.com/osman-95/Project_Progress_2/blob/master/Final_Model/Output_images/books_read%2017.png)
+![](https://github.com/osman-95/Project_Progress_2/blob/master/Final_Model/Output_images/books_read%2023.png)
+![](https://github.com/osman-95/Project_Progress_2/blob/master/Final_Model/Output_images/books_read%2026.png)
+![](https://github.com/osman-95/Project_Progress_2/blob/master/Final_Model/Output_images/books_read%206.png)
+![](https://github.com/osman-95/Project_Progress_2/blob/master/Final_Model/Output_images/test_3%2013.png)
+![](https://github.com/osman-95/Project_Progress_2/blob/master/Final_Model/Output_images/test_3%2020.png)
+![](https://github.com/osman-95/Project_Progress_2/blob/master/Final_Model/Output_images/test_3%2035.png)
+![](https://github.com/osman-95/Project_Progress_2/blob/master/Final_Model/Output_images/test_3%209.png)
+
+
 ## Conclusion
 
 Our model showed an acceptable performance with most for the inaccuracy occurring in the object detection stage. The object detection showed an accuracy of about 59% with an average recall of about 71%. The model was able to detect a significant about of large and medium objects (APL=61%, APM=41% ) but struggled in detecting small objects (APS= 0.10). The classification part on the other hand showed an outstanding performance on all tested models with no accuracy below 92%. The selection of the classification model was completely based on the processing time or execution speed of the model. The decision tree showed a high speed of about 0.00842 seconds per frame making it reliable for real-time processing. The project is in its initial stages and needs further research, improvement, training and optimization to produce a finished model to be applicable for general use.  
