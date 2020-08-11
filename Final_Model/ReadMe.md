@@ -24,7 +24,8 @@ To classify an image based on the objects detected in a frame/image, the annotat
 
 While testing the model, the annotations or labels detected by the object detection model are fed to the classification model to determine the class of the image.
 
-![](https://github.com/osman-95/Project_Progress_2/blob/master/ReadMe_img/Model%20(3).jpg)
+![](https://github.com/osman-95/Project_Progress_2/blob/master/ReadMe_img/Md.jpg)
+
 
 Before Elaborating the above sections, a quick overview on the file hierarchy of the main files are shown below
          
@@ -117,7 +118,7 @@ The two classification datasets (1- annotations only and 2-annotation with geome
 
 The complete training process is demonstrated in one diagram shown below.
 
-![]()
+![](https://github.com/osman-95/Project_Progress_2/blob/master/ReadMe_img/Model%20(3).jpg)
 
 ## Results
 
@@ -127,29 +128,30 @@ The complete model was evaluated under two sections: object detection section an
 
 The object detector was evaluated based on mean Average precision and mean average recall values measured over multiple intersection of union and for various object sizes.
 
-![]()
+![](https://github.com/osman-95/Project_Progress_2/blob/master/ReadMe_img/tb1.PNG)
 **Table 1: Mean average precision and average recall for various models**
 
 ### Classification evaluation
 
 The classification model was evaluated using precision, recall and F1 metrics. In addition to that, the processing time of each frame or the speed of the model was considered since the model needs to be implemented in real-time
 
-![]()
+![](https://github.com/osman-95/Project_Progress_2/blob/master/ReadMe_img/tb2.PNG)
 **Table 2: Accuracy, precision and recall for all the 3 models tested on the two datasets.**
 
 The confusion matrix of all the 3 models is shown below.  
 
-![]()
-![]()
-![]()
+![](https://github.com/osman-95/Project_Progress_2/blob/master/ReadMe_img/Capture546.PNG)
+![](https://github.com/osman-95/Project_Progress_2/blob/master/ReadMe_img/Capture32.PNG)
+![](https://github.com/osman-95/Project_Progress_2/blob/master/ReadMe_img/Capture56.PNG)
+
 
 Since all models showed a very good performance with accuracy values above 90%, the main factor for choosing the final model was based on the speed of the model. The speed of processing time of the models was evaluated by calculating the time taken to process a single frame. The results of the speed test are shown below. 
 
-![]()
+![](https://github.com/osman-95/Project_Progress_2/blob/master/ReadMe_img/tb3.PNG)
 **Table 3: The accuracy and speed of each algorithm**
 
 
-### Sample outut of the complete model
+### Sample output of the complete model
 
 ## Conclusion
 
