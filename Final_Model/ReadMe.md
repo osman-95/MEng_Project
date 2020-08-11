@@ -93,6 +93,64 @@ I labelled the dataset manually using [VoTT software](https://github.com/microso
 - Classification dataset 1- Contains the information about the occurrence of each object in an image
 - Classification dataset 2- Contains the information about the occurrence of each object in an image in addition to their geometrical positional coordinates
 
+## Training Process
+
+The object detection and classification models were trained separately in the training stage and the final models for both sections(object detection and classification) were chosen based on the individual evaluation of each model with their respective test data.
+
+### Object detection training process
+
+The 3 datasets built  for object detection throughout the course of the project  were trained on pretrained Coco  MobileNetV2 model in different configurations:
+- Model 1: Dataset-1 only (600 images)
+- Model 2: Dataset-2 only (1500 images)
+- Model 3: Dataset-3 only (2500 images)
+- Model 4: Dataset-1 cascaded with Dataset-2 (600x1500)
+- Model 5: Dataset-2 cascaded with Dataset-3 (1500x2500)
+- Model 6: Dataset-1 cascaded with Dataset-2 and the model built is cascaded with Dataset-3 (600x1500x2500)
+
+### Classification training process
+
+The two classification datasets (1- annotations only and 2-annotation with geometrical coordinate’s information)discussed earlier were used for training the classification model. The different algorithms were used for training are shown below:
+•	Feed-forward neural network
+•	K-nearest neighbors
+•	Decision tree algorithm 
 
 
+The complete training process is demonstrated in one diagram shown below.
 
+![]()
+
+## Results
+
+The complete model was evaluated under two sections: object detection section and classification section. The two sections were evaluated separately as the process of evaluation of each section is different. 
+
+### Object detection evaluation
+
+The object detector was evaluated based on mean Average precision and mean average recall values measured over multiple intersection of union and for various object sizes.
+
+![]()
+**Table 1: Mean average precision and average recall for various models**
+
+### Classification evaluation
+
+The classification model was evaluated using precision, recall and F1 metrics. In addition to that, the processing time of each frame or the speed of the model was considered since the model needs to be implemented in real-time
+
+![]()
+**Table 2: Accuracy, precision and recall for all the 3 models tested on the two datasets.**
+
+The confusion matrix of all the 3 models is shown below.  
+
+![]()
+![]()
+![]()
+
+Since all models showed a very good performance with accuracy values above 90%, the main factor for choosing the final model was based on the speed of the model. The speed of processing time of the models was evaluated by calculating the time taken to process a single frame. The results of the speed test are shown below. 
+
+![]()
+**Table 3: The accuracy and speed of each algorithm**
+
+
+### Sample outut of the complete model
+
+## Conclusion
+
+Our model showed an acceptable performance with most for the inaccuracy occurring in the object detection stage. The object detection showed an accuracy of about 59% with an average recall of about 71%. The model was able to detect a significant about of large and medium objects (APL=61%, APM=41% ) but struggled in detecting small objects (APS= 0.10). The classification part on the other hand showed an outstanding performance on all tested models with no accuracy below 92%. The selection of the classification model was completely based on the processing time or execution speed of the model. The decision tree showed a high speed of about 0.00842 seconds per frame making it reliable for real-time processing. The project is in its initial stages and needs further research, improvement, training and optimization to produce a finished model to be applicable for general use.  
