@@ -1,6 +1,5 @@
 # Object detection-based Scene Classification
 
-## Instructions
 
 
 ## Project Description
